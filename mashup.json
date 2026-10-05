@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "name": "SlimeCraft",
   "tagline": "Minecraft inside the real Slime Rancher: mine, build, craft and fight on the Far, Far Range with your own Minecraft's blocks, mobs and sounds.",
+  "how_to_play": [
+    "Play Slime Rancher with Minecraft on top: mine the range, place blocks, craft, fight Minecraft mobs and feed slimes Minecraft food.",
+    "Slot 1 is your vacpack; 1-9 hotbar, left mouse mines or attacks, right mouse places, uses or eats.",
+    "I opens inventory and crafting, Y chat and commands (/help, /give, /summon), Z drops an item, Left Ctrl sneaks.",
+    "Press F8 to switch back to the original Slime Rancher HUD.",
+    "Press Play and load or create a save: the first save loaded gets a starter kit of tools, blocks, TNT and food."
+  ],
   "kind": "mashup",
   "games": [
     {
