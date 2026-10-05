@@ -223,10 +223,11 @@
   "status": "beta",
   "issues": "https://github.com/Angais/SlimeCraft/issues",
   "notes": [
-    "You need both games: Slime Rancher 1 on Steam (Windows, v1.4.x) and Minecraft: Java Edition.",
-    "Start Minecraft 26.1.2 once from the official Minecraft Launcher before playing: SlimeCraft loads Minecraft's textures, sounds and recipes from %APPDATA%\\.minecraft (a Prism or other launcher install is not found; set [Core] MinecraftDir in BepInEx\\config\\com.angais.slimecraft.cfg to point elsewhere).",
-    "BepInEx 5.4.23.5 is installed into the Slime Rancher folder with the mod; Restore removes both.",
-    "Back up your saves first (%USERPROFILE%\\AppData\\LocalLow\\Monomi Park\\Slime Rancher): the author calls it an experimental fan mod; it keeps its own data under BepInEx\\config\\SlimeCraft and is designed not to change your saves.",
-    "Single-player. Beta: report bugs to the author on the upstream issue tracker."
+    "How it works: you play the real Slime Rancher with Minecraft layered on top: Minecraft HUD and Steve's arm, about 85 placeable blocks, mining the range with tools, TNT, Minecraft mobs, crafting, and slimes eating Minecraft food. Slot 1 is your vacpack, which plays as usual.",
+    "Press Play to start Slime Rancher, then load or create a save: the Minecraft hotbar appears, and the first save loaded with the mod gets a starter kit (vacpack, diamond tools, blocks, TNT, flint and steel, food). Minecraft itself never runs.",
+    "Keys: 1-9 hotbar, left mouse mine/attack, right mouse place/use/eat, I inventory and crafting, Y chat and commands (/help, /give, /summon, /gamemode creative), Z drop, Left Ctrl sneak, F3 debug, F8 switches to the original Slime Rancher HUD.",
+    "You need Slime Rancher 1 on Steam (v1.4.x, Windows) and Minecraft: Java Edition. Start Minecraft 26.1.2 once from the official Minecraft Launcher first: the mod reads textures, sounds and recipes from %APPDATA%\\.minecraft. Magenta/black blocks mean it did not find them.",
+    "Back up %USERPROFILE%\\AppData\\LocalLow\\Monomi Park\\Slime Rancher first: the author calls it experimental. It keeps its own data in BepInEx\\config\\SlimeCraft and is designed not to change your saves. Hostile mobs stay off your ranch by default. Single player.",
+    "BepInEx 5.4.23.5 is installed with the mod and Restore removes both. Beta: report bugs to the author on the upstream issue tracker with BepInEx\\LogOutput.log."
   ]
 }
