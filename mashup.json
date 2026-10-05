@@ -4,11 +4,11 @@
   "name": "SlimeCraft",
   "tagline": "Minecraft inside the real Slime Rancher: mine, build, craft and fight on the Far, Far Range with your own Minecraft's blocks, mobs and sounds.",
   "how_to_play": [
-    "Play Slime Rancher with Minecraft on top: mine the range, place blocks, craft, fight Minecraft mobs and feed slimes Minecraft food.",
-    "Slot 1 is your vacpack; 1-9 hotbar, left mouse mines or attacks, right mouse places, uses or eats.",
-    "I opens inventory and crafting, Y chat and commands (/help, /give, /summon), Z drops an item, Left Ctrl sneaks.",
-    "Press F8 to switch back to the original Slime Rancher HUD.",
-    "Press Play and load or create a save: the first save loaded gets a starter kit of tools, blocks, TNT and food."
+    "Play the real Slime Rancher with Minecraft on top: about 85 blocks, mining with tools, TNT, Minecraft mobs, crafting, and slimes eating Minecraft food.",
+    "Press Play to start Slime Rancher, then load or create a save: the Minecraft hotbar appears. The first save loaded with the mod gets a starter kit.",
+    "Slot 1 is your vacpack, which plays as usual. 1-9 hotbar, left mouse mine/attack, right mouse place/use/eat.",
+    "I inventory and crafting, Y chat and commands (/help, /give, /summon, /gamemode creative), Z drop, Left Ctrl sneak, F3 debug.",
+    "F8 switches to the original Slime Rancher HUD."
   ],
   "kind": "mashup",
   "games": [
@@ -230,9 +230,6 @@
   "status": "beta",
   "issues": "https://github.com/Angais/SlimeCraft/issues",
   "notes": [
-    "How it works: you play the real Slime Rancher with Minecraft layered on top: Minecraft HUD and Steve's arm, about 85 placeable blocks, mining the range with tools, TNT, Minecraft mobs, crafting, and slimes eating Minecraft food. Slot 1 is your vacpack, which plays as usual.",
-    "Press Play to start Slime Rancher, then load or create a save: the Minecraft hotbar appears, and the first save loaded with the mod gets a starter kit (vacpack, diamond tools, blocks, TNT, flint and steel, food). Minecraft itself never runs.",
-    "Keys: 1-9 hotbar, left mouse mine/attack, right mouse place/use/eat, I inventory and crafting, Y chat and commands (/help, /give, /summon, /gamemode creative), Z drop, Left Ctrl sneak, F3 debug, F8 switches to the original Slime Rancher HUD.",
     "You need Slime Rancher 1 on Steam (v1.4.x, Windows) and Minecraft: Java Edition. Start Minecraft 26.1.2 once from the official Minecraft Launcher first: the mod reads textures, sounds and recipes from %APPDATA%\\.minecraft. Magenta/black blocks mean it did not find them.",
     "Back up %USERPROFILE%\\AppData\\LocalLow\\Monomi Park\\Slime Rancher first: the author calls it experimental. It keeps its own data in BepInEx\\config\\SlimeCraft and is designed not to change your saves. Hostile mobs stay off your ranch by default. Single player.",
     "BepInEx 5.4.23.5 is installed with the mod and Restore removes both. Beta: report bugs to the author on the upstream issue tracker with BepInEx\\LogOutput.log."
